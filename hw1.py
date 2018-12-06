@@ -1,7 +1,6 @@
 #
 # CS 196 Data Hackerspace
 # Assignment 1: Data Parsing and NumPy
-# Due September 24th, 2018
 #
 
 import json
