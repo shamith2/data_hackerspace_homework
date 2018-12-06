@@ -1,4 +1,4 @@
-
+# Assignment 2: Data Visualization
 import matplotlib.pyplot as plt
 import numpy as np
 
