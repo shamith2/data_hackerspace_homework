@@ -16,7 +16,7 @@ def histogram_times(filename):
         airplane_data = list(csv_read)
         for i in range(1,len(airplane_data)):
             if airplane_data[i][1][:2] != "":
-                if airplane_data[i][1][:2] > "00" and airplane_data[i][1][:2] < "24" and airplane_data[i][1][:2] != "1:" :
+                if (airplane_data[i][1][:2] > "00" or airplane_data[i][1][:2] == "00") and (airplane_data[i][1][:2] < "24" or airplane_data[i][1][:2] == "24") and airplane_data[i][1][:2] != "1:" :
                       list2.append(int(airplane_data[i][1][:2]))
         
         for m in range(0,24):
